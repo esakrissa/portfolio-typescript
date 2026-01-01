@@ -2,8 +2,8 @@
 
 > Personal portfolio website showcasing TypeScript expertise, built with Next.js 14 and deployed on Cloudflare Pages.
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue?logo=typescript)](https://www.typescriptlang.org/)
-[![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
@@ -22,8 +22,8 @@ This portfolio website is designed to demonstrate **TypeScript expertise** throu
 
 | Category | Technology |
 |----------|------------|
-| **Framework** | Next.js 14 (App Router) |
-| **Language** | TypeScript 5.5 (Strict Mode) |
+| **Framework** | Next.js 15 (App Router) |
+| **Language** | TypeScript 5.7 (Strict Mode) |
 | **Styling** | Tailwind CSS 3.4 |
 | **Fonts** | Inter (Sans) + JetBrains Mono |
 | **Validation** | Zod |
@@ -208,6 +208,7 @@ MIT License - feel free to use this as a template for your own portfolio!
 
 - 🌐 Website: [esakrissa.com](https://esakrissa.com)
 - 🐙 GitHub: [@esakrissa](https://github.com/esakrissa)
+- 💼 LinkedIn: [esakrissa](https://www.linkedin.com/in/esakrissa)
 - 📧 Email: esakrissa.wayan@gmail.com
 - 📍 Location: Ubud, Bali, Indonesia
 

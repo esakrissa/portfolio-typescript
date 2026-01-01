@@ -20,19 +20,19 @@ export function About(): React.ReactElement {
           <h3 className="font-semibold mb-4">Background</h3>
           <div className="space-y-4 text-zinc-600 dark:text-zinc-400">
             <p>
-              I'm <strong className="text-black dark:text-white">{profile.fullName}</strong>, a Senior Back-End 
+              I&apos;m <strong className="text-black dark:text-white">{profile.fullName}</strong>, a Senior Back-End 
               Developer based in <strong className="text-black dark:text-white">{profile.location}</strong>. 
               I specialize in building scalable, type-safe applications using TypeScript, 
               microservices architecture, and cloud-native technologies.
             </p>
             <p>
               With extensive experience in both <strong className="text-black dark:text-white">AWS</strong> and 
-              <strong className="text-black dark:text-white"> GCP</strong>, I've designed and deployed production 
+              <strong className="text-black dark:text-white"> GCP</strong>, I&apos;ve designed and deployed production 
               systems that handle real-world traffic with high reliability. My approach combines 
               academic research rigor with practical engineering solutions.
             </p>
             <p>
-              Beyond coding, I'm also a <strong className="text-black dark:text-white">singer-songwriter</strong> 
+              Beyond coding, I&apos;m also a <strong className="text-black dark:text-white">singer-songwriter</strong> 
               and artist. This creative background gives me a unique perspective on code aesthetics 
               and architecture design—I believe beautiful systems work better.
             </p>

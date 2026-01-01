@@ -98,7 +98,7 @@ export function Skills(): React.ReactElement {
             <h3 className="font-semibold mb-2">TypeScript First</h3>
             <p className="text-zinc-600 dark:text-zinc-400 text-sm">
               I prioritize type safety in all my projects. Generics, strict null checks, 
-              and proper type inference are not afterthoughts—they're part of my design process. 
+              and proper type inference are not afterthoughts—they&apos;re part of my design process. 
               When I see <code>any</code>, I refactor it.
             </p>
           </div>

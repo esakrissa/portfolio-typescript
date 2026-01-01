@@ -101,7 +101,7 @@ export default function ResumePage(): React.ReactElement {
             in TypeScript, microservices architecture, and cloud-native applications on both AWS and GCP. 
             Published researcher with expertise in AI agent orchestration using LangGraph and Model Context Protocol (MCP). 
             Based in Bali, Indonesia with a proven track record of delivering production-ready, 
-            type-safe systems. Combines technical excellence with an artist's attention to detail 
+            type-safe systems. Combines technical excellence with an artist&apos;s attention to detail 
             and design-first engineering principles.
           </p>
         </section>

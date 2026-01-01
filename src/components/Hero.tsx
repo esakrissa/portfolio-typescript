@@ -80,7 +80,7 @@ export function Hero(): React.ReactElement {
         <div className="max-w-3xl mx-auto text-center">
           {/* Greeting */}
           <p className="font-mono text-sm text-zinc-500 dark:text-zinc-400 mb-4 animate-fade-in">
-            Hello, I'm
+            Hello, I&apos;m
           </p>
 
           {/* Name */}

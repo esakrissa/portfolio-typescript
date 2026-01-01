@@ -200,9 +200,9 @@ export function Contact(): React.ReactElement {
       <div className="grid md:grid-cols-2 gap-12">
         {/* Contact Info */}
         <div>
-          <h3 className="font-semibold mb-4">Let's Connect</h3>
+          <h3 className="font-semibold mb-4">Let&apos;s Connect</h3>
           <p className="text-zinc-600 dark:text-zinc-400 mb-6">
-            I'm always interested in hearing about new opportunities, collaborations, 
+            I&apos;m always interested in hearing about new opportunities, collaborations, 
             or just having a chat about technology. Feel free to reach out!
           </p>
 
@@ -312,7 +312,7 @@ export function Contact(): React.ReactElement {
 
             {status === 'success' && (
               <p className="text-green-600 dark:text-green-400 text-sm text-center">
-                ✓ Message sent successfully! I'll get back to you soon.
+                ✓ Message sent successfully! I&apos;ll get back to you soon.
               </p>
             )}
 

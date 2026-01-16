@@ -1,7 +1,7 @@
 {
   "name": "Esa Krissa Portfolio",
   "short_name": "Esa Krissa",
-  "description": "Software Engineer specializing in TypeScript, microservices, and cloud-native applications",
+  "description": "Software Engineer building end-to-end applications with TypeScript, React, Next.js, and cloud technologies",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

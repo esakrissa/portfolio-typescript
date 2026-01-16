@@ -97,12 +97,11 @@ export default function ResumePage(): React.ReactElement {
         <section className="mb-6 print:mb-4">
           <SectionHeader title="Professional Summary" />
           <p className="text-sm leading-relaxed text-zinc-700">
-            Results-driven <strong>Software Engineer</strong> with 3+ years of experience
-            in TypeScript, microservices architecture, and cloud-native applications on both AWS and GCP. 
-            Published researcher with expertise in AI agent orchestration using LangGraph and Model Context Protocol (MCP). 
-            Based in Bali, Indonesia with a proven track record of delivering production-ready, 
-            type-safe systems. Combines technical excellence with an artist&apos;s attention to detail 
-            and design-first engineering principles.
+            Versatile <strong>Software Engineer</strong> with 3+ years of experience
+            building end-to-end applications using TypeScript, React, Next.js, and cloud-native technologies on AWS and GCP.
+            Published researcher with expertise in AI agent orchestration using LangGraph and Model Context Protocol (MCP).
+            Based in Bali, Indonesia with a proven track record of delivering production-ready,
+            type-safe systems across the full stack.
           </p>
         </section>
 

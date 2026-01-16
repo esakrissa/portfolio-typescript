@@ -39,10 +39,10 @@ export const profile: Profile = {
   fullName: 'I Wayan Darmika Esa Krissayoga',
   displayName: 'Esa Krissa',
   title: 'Software Engineer',
-  bio: `Results-driven Back-End Developer with extensive experience in TypeScript, 
-        microservices architecture, and cloud-native applications on both AWS and GCP. 
-        Based in Ubud, Bali, Indonesia. Combines technical expertise with an artist's 
-        eye for detail and aesthetics in code architecture.`,
+  bio: `Versatile Software Engineer with experience building end-to-end applications
+        using TypeScript, React, Next.js, and cloud-native technologies on AWS and GCP.
+        Based in Ubud, Bali, Indonesia. Passionate about creating seamless user experiences
+        backed by robust, scalable systems.`,
   location: 'Ubud, Bali, Indonesia',
   email: createValidEmail('esakrissa.wayan@gmail.com'),
   website: createValidURL('https://esakrissa.com'),
@@ -533,14 +533,15 @@ export const highlights = [
 export const meta = {
   title: 'Esa Krissa | Software Engineer',
   description:
-    'Software Engineer specializing in TypeScript, microservices, and cloud-native applications. Based in Bali, Indonesia.',
+    'Software Engineer building end-to-end applications with TypeScript, React, Next.js, and cloud technologies. Based in Bali, Indonesia.',
   keywords: [
     'TypeScript',
-    'Back-End Developer',
-    'Microservices',
+    'Software Engineer',
+    'React',
+    'Next.js',
+    'Full Stack',
     'AWS',
     'GCP',
-    'LangGraph',
     'Bali',
   ] as string[],
   ogImage: '/og-image.png',

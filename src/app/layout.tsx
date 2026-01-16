@@ -142,7 +142,7 @@ export default function RootLayout({ children }: RootLayoutProps): React.ReactEl
               name: 'I Wayan Darmika Esa Krissayoga',
               alternateName: 'Esa Krissa',
               url: 'https://esakrissa.com',
-              jobTitle: 'Senior Back-End Developer',
+              jobTitle: 'Software Engineer',
               worksFor: {
                 '@type': 'Organization',
                 name: 'Freelance',

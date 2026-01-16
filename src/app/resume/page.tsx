@@ -97,7 +97,7 @@ export default function ResumePage(): React.ReactElement {
         <section className="mb-6 print:mb-4">
           <SectionHeader title="Professional Summary" />
           <p className="text-sm leading-relaxed text-zinc-700">
-            Results-driven <strong>Senior Back-End Developer</strong> with 5+ years of experience 
+            Results-driven <strong>Software Engineer</strong> with 3+ years of experience
             in TypeScript, microservices architecture, and cloud-native applications on both AWS and GCP. 
             Published researcher with expertise in AI agent orchestration using LangGraph and Model Context Protocol (MCP). 
             Based in Bali, Indonesia with a proven track record of delivering production-ready, 
@@ -196,7 +196,7 @@ export default function ResumePage(): React.ReactElement {
             ))}
           </div>
           <p className="text-xs text-zinc-500 mt-3 font-mono">
-            + 40 more repositories at github.com/esakrissa
+            + 18 more repositories at github.com/esakrissa
           </p>
         </section>
 
@@ -239,7 +239,7 @@ export default function ResumePage(): React.ReactElement {
               <p className="font-semibold text-black">Key Achievements</p>
               <ul className="text-zinc-600 text-sm">
                 <li>• First author on AI/LangGraph research paper</li>
-                <li>• 46 public GitHub repositories</li>
+                <li>• 24 public GitHub repositories</li>
                 <li>• Open-source contributor (11+ stars on MCP server)</li>
               </ul>
             </div>

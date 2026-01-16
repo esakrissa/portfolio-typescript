@@ -38,7 +38,7 @@ function createValidEmail(email: string): ValidEmail {
 export const profile: Profile = {
   fullName: 'I Wayan Darmika Esa Krissayoga',
   displayName: 'Esa Krissa',
-  title: 'Senior Back-End Developer',
+  title: 'Software Engineer',
   bio: `Results-driven Back-End Developer with extensive experience in TypeScript, 
         microservices architecture, and cloud-native applications on both AWS and GCP. 
         Based in Ubud, Bali, Indonesia. Combines technical expertise with an artist's 
@@ -508,11 +508,11 @@ export const education: readonly Education[] = [
 export const highlights = [
   {
     label: 'Years Experience',
-    value: '5+',
+    value: '3+',
   },
   {
     label: 'GitHub Repos',
-    value: '46',
+    value: '24',
   },
   {
     label: 'Research Papers',
@@ -530,9 +530,9 @@ export const highlights = [
 // ============================================
 
 export const meta = {
-  title: 'Esa Krissa | Senior Back-End Developer',
+  title: 'Esa Krissa | Software Engineer',
   description:
-    'Senior Back-End Developer specializing in TypeScript, microservices, and cloud-native applications. Based in Bali, Indonesia.',
+    'Software Engineer specializing in TypeScript, microservices, and cloud-native applications. Based in Bali, Indonesia.',
   keywords: [
     'TypeScript',
     'Back-End Developer',

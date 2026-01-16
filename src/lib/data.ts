@@ -157,6 +157,7 @@ export const skills: readonly Skill[] = [
       technologies.nestjs,
       technologies.fastapi,
       technologies.nextjs,
+      technologies.react,
       technologies.serverless,
     ],
   },

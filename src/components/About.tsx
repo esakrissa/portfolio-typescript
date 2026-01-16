@@ -20,21 +20,20 @@ export function About(): React.ReactElement {
           <h3 className="font-semibold mb-4">Background</h3>
           <div className="space-y-4 text-zinc-600 dark:text-zinc-400">
             <p>
-              I&apos;m <strong className="text-black dark:text-white">{profile.fullName}</strong>, a Senior Back-End 
-              Developer based in <strong className="text-black dark:text-white">{profile.location}</strong>. 
-              I specialize in building scalable, type-safe applications using TypeScript, 
-              microservices architecture, and cloud-native technologies.
+              I&apos;m <strong className="text-black dark:text-white">{profile.fullName}</strong>, a Software
+              Engineer based in <strong className="text-black dark:text-white">{profile.location}</strong>.
+              I build end-to-end applications using TypeScript, React, Next.js, and cloud-native
+              technologies on AWS and GCP.
             </p>
             <p>
-              With extensive experience in both <strong className="text-black dark:text-white">AWS</strong> and 
-              <strong className="text-black dark:text-white"> GCP</strong>, I&apos;ve designed and deployed production 
-              systems that handle real-world traffic with high reliability. My approach combines 
-              academic research rigor with practical engineering solutions.
+              I&apos;m passionate about creating <strong className="text-black dark:text-white">seamless user experiences</strong> backed
+              by <strong className="text-black dark:text-white">robust, scalable systems</strong>. From crafting intuitive interfaces
+              to designing reliable backend services, I enjoy working across the full stack.
             </p>
             <p>
-              Beyond coding, I&apos;m also a <strong className="text-black dark:text-white">singer-songwriter</strong> 
-              and artist. This creative background gives me a unique perspective on code aesthetics 
-              and architecture design—I believe beautiful systems work better.
+              Beyond coding, I&apos;m also a <strong className="text-black dark:text-white">singer-songwriter</strong>
+              and artist. This creative background gives me a unique perspective on design and user
+              experience—I believe beautiful products work better.
             </p>
           </div>
 

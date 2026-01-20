@@ -188,7 +188,7 @@ export function Projects(): React.ReactElement {
           rel="noopener noreferrer"
           className="btn btn-secondary"
         >
-          View All 46 Repositories on GitHub →
+          View All 24 Repositories on GitHub →
         </a>
       </div>
     </Section>

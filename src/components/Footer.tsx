@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { profile, navItems } from '@/lib/data';
-import { ThemeToggle } from './ThemeToggle';
+import { profile, navItems } from "@/lib/data";
+import { ThemeToggle } from "./ThemeToggle";
 
 /**
  * Get current year
@@ -23,7 +23,8 @@ export function Footer(): React.ReactElement {
           {/* Brand */}
           <div>
             <a href="#" className="font-mono font-semibold text-lg">
-              esa<span className="text-zinc-400 dark:text-zinc-500">krissa</span>
+              esa
+              <span className="text-zinc-400 dark:text-zinc-500">krissa</span>
             </a>
             <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-2">
               {profile.title}
@@ -74,21 +75,19 @@ export function Footer(): React.ReactElement {
             © {getCurrentYear()} {profile.displayName}. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
-            <p className="font-mono text-xs">
-              Built with Next.js + TypeScript
-            </p>
+            <p className="font-mono text-xs">Built with Next.js</p>
             <ThemeToggle />
           </div>
         </div>
 
-        {/* TypeScript Badge */}
+        {/* Python Badge */}
         <div className="mt-8 text-center">
           <div className="inline-flex items-center space-x-2 px-4 py-2 border border-border rounded-full text-xs font-mono text-zinc-500 dark:text-zinc-400">
-            <span>Strict TypeScript</span>
+            <span>Python</span>
             <span>•</span>
-            <span>Type-Safe</span>
+            <span>FastAPI</span>
             <span>•</span>
-            <span>Zero `any`</span>
+            <span>AI Agents</span>
           </div>
         </div>
       </div>

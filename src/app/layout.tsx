@@ -1,22 +1,22 @@
-import type { Metadata, Viewport } from 'next';
-import { Inter, JetBrains_Mono } from 'next/font/google';
-import { meta } from '@/lib/data';
-import './globals.css';
+import type { Metadata, Viewport } from "next";
+import { Inter, JetBrains_Mono } from "next/font/google";
+import { meta } from "@/lib/data";
+import "./globals.css";
 
 /**
  * Font Configuration
  * Demonstrates: Next.js font optimization with TypeScript
  */
 const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-inter',
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
 });
 
 const jetbrainsMono = JetBrains_Mono({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-mono',
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-mono",
 });
 
 /**
@@ -30,27 +30,27 @@ export const metadata: Metadata = {
   },
   description: meta.description,
   keywords: meta.keywords,
-  authors: [{ name: 'Esa Krissa', url: 'https://esakrissa.com' }],
-  creator: 'Esa Krissa',
-  publisher: 'Esa Krissa',
+  authors: [{ name: "Esa Krissa", url: "https://esakrissa.com" }],
+  creator: "Esa Krissa",
+  publisher: "Esa Krissa",
   robots: {
     index: true,
     follow: true,
     googleBot: {
       index: true,
       follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
     },
   },
   openGraph: {
-    type: 'website',
-    locale: 'en_US',
-    url: 'https://esakrissa.com',
+    type: "website",
+    locale: "en_US",
+    url: "https://esakrissa.com",
     title: meta.title,
     description: meta.description,
-    siteName: 'Esa Krissa Portfolio',
+    siteName: "Esa Krissa Portfolio",
     images: [
       {
         url: meta.ogImage,
@@ -61,18 +61,18 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    card: 'summary_large_image',
+    card: "summary_large_image",
     title: meta.title,
     description: meta.description,
     images: [meta.ogImage],
     creator: meta.twitterHandle,
   },
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon-16x16.png',
-    apple: '/apple-touch-icon.png',
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
   },
-  manifest: '/site.webmanifest',
+  manifest: "/site.webmanifest",
 };
 
 /**
@@ -80,10 +80,10 @@ export const metadata: Metadata = {
  */
 export const viewport: Viewport = {
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#ffffff' },
-    { media: '(prefers-color-scheme: dark)', color: '#000000' },
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#000000" },
   ],
-  width: 'device-width',
+  width: "device-width",
   initialScale: 1,
 };
 
@@ -95,7 +95,9 @@ interface RootLayoutProps {
   readonly children: React.ReactNode;
 }
 
-export default function RootLayout({ children }: RootLayoutProps): React.ReactElement {
+export default function RootLayout({
+  children,
+}: RootLayoutProps): React.ReactElement {
   return (
     <html
       lang="en"
@@ -137,30 +139,35 @@ export default function RootLayout({ children }: RootLayoutProps): React.ReactEl
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'Person',
-              name: 'I Wayan Darmika Esa Krissayoga',
-              alternateName: 'Esa Krissa',
-              url: 'https://esakrissa.com',
-              jobTitle: 'Software Engineer',
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "I Wayan Darmika Esa Krissayoga",
+              alternateName: "Esa Krissa",
+              url: "https://esakrissa.com",
+              jobTitle: "Python Backend Engineer",
               worksFor: {
-                '@type': 'Organization',
-                name: 'Freelance',
+                "@type": "Organization",
+                name: "Freelance",
               },
               alumniOf: {
-                '@type': 'CollegeOrUniversity',
-                name: 'Universitas Udayana',
+                "@type": "CollegeOrUniversity",
+                name: "Universitas Udayana",
               },
               knowsAbout: [
-                'TypeScript',
-                'Microservices',
-                'AWS',
-                'GCP',
-                'Backend Development',
+                "Python",
+                "FastAPI",
+                "LangChain",
+                "LangGraph",
+                "MCP",
+                "Microservices",
+                "AI Agents",
+                "AWS",
+                "GCP",
+                "Backend Development",
               ],
               sameAs: [
-                'https://github.com/esakrissa',
-                'https://medium.com/@esakrissapublishing',
+                "https://github.com/esakrissa",
+                "https://medium.com/@esakrissapublishing",
               ],
             }),
           }}

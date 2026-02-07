@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { Section } from './Section';
-import { skills } from '@/lib/data';
-import type { Technology, ProficiencyLevel } from '@/types';
+import { Section } from "./Section";
+import { skills } from "@/lib/data";
+import type { Technology, ProficiencyLevel } from "@/types";
 
 /**
  * Proficiency Badge Component
@@ -12,11 +12,14 @@ interface ProficiencyBadgeProps {
   readonly level: ProficiencyLevel;
 }
 
-function ProficiencyBadge({ level }: ProficiencyBadgeProps): React.ReactElement {
+function ProficiencyBadge({
+  level,
+}: ProficiencyBadgeProps): React.ReactElement {
   const styles: Record<ProficiencyLevel, string> = {
-    expert: 'bg-black text-white dark:bg-white dark:text-black',
-    advanced: 'bg-zinc-200 text-zinc-800 dark:bg-zinc-700 dark:text-zinc-200',
-    intermediate: 'bg-zinc-100 text-zinc-600 dark:bg-zinc-800 dark:text-zinc-400',
+    expert: "bg-black text-white dark:bg-white dark:text-black",
+    advanced: "bg-zinc-200 text-zinc-800 dark:bg-zinc-700 dark:text-zinc-200",
+    intermediate:
+      "bg-zinc-100 text-zinc-600 dark:bg-zinc-800 dark:text-zinc-400",
   };
 
   return (
@@ -54,7 +57,10 @@ interface SkillCategoryProps {
   readonly items: readonly Technology[];
 }
 
-function SkillCategory({ category, items }: SkillCategoryProps): React.ReactElement {
+function SkillCategory({
+  category,
+  items,
+}: SkillCategoryProps): React.ReactElement {
   return (
     <div className="mb-8 last:mb-0">
       <h3 className="font-mono text-sm text-zinc-500 dark:text-zinc-400 mb-4 uppercase tracking-wider">
@@ -90,16 +96,17 @@ export function Skills(): React.ReactElement {
         ))}
       </div>
 
-      {/* TypeScript Highlight */}
+      {/* Python Highlight */}
       <div className="mt-12 p-6 border border-black dark:border-white rounded-lg bg-zinc-50 dark:bg-zinc-800">
         <div className="flex items-start space-x-4">
-          <div className="font-mono text-4xl">TS</div>
+          <div className="font-mono text-4xl">PY</div>
           <div>
-            <h3 className="font-semibold mb-2">TypeScript First</h3>
+            <h3 className="font-semibold mb-2">Python First</h3>
             <p className="text-zinc-600 dark:text-zinc-400 text-sm">
-              I prioritize type safety in all my projects. Generics, strict null checks, 
-              and proper type inference are not afterthoughts—they&apos;re part of my design process. 
-              When I see <code>any</code>, I refactor it.
+              Python is my core language. I build production-grade APIs with
+              FastAPI, orchestrate AI agents with LangChain and LangGraph, and
+              deploy microservices on AWS and GCP. Clean code, solid tests, and
+              reliable systems.
             </p>
           </div>
         </div>
